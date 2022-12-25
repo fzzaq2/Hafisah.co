@@ -1,0 +1,243 @@
+body {
+    background-color: #F2E7D5;
+    margin:60px 0 0;
+    text-align: center;
+    cursor: url(https://cur.cursors-4u.net/anime/ani-12/ani1135.ani), url(https://cur.cursors-4u.net/anime/ani-12/ani1135.png), auto !important;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+hr{
+    margin: 100px auto;
+    border: none;
+    border-top: solid 8px;
+    border-top-style: dashed;
+    width: 95%;
+}
+
+.title{
+    font-size: 65px;
+}
+
+.top-text{
+    margin: 70px auto 50px;
+}
+
+p{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 12px;
+    color: #F2E7D5;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background: #F7F7F7;
+    color: black;
+}
+
+.menu h2{
+    color: #F2E7D5;
+    position: absolute;
+    margin: auto 0;
+    right: 42%;
+}
+
+#slideshow{
+    overflow: hidden;
+    text-align: center;
+    height: 510px;
+    width: 1080px;
+    margin: 0 auto;
+    border: solid 15px black;
+}
+
+.slide-wrapper{
+    width: 5400px;
+    animation: slide 28s ease infinite;
+
+}
+
+.slide {
+    float: left;
+    height: 510px;
+    width: 1080px;
+}
+
+.slide:nth-child(1){
+    background-color: #D58BDD;
+}
+
+.slide:nth-child(2){
+    background-color: #FF74B1;
+}
+
+.slide:nth-child(3){
+    background-color: #3A4F7A;
+}
+
+.slide:nth-child(4){
+    background-color: #EEEEEE;
+}
+
+.slide:nth-child(5){
+    background-color: #FF74B1;
+}
+
+h1{
+    margin: 3.125rem auto 0 auto;
+    font-family: 'Titan One', cursive;
+}
+
+h2{
+    margin: 3.125rem auto 70px auto;
+    font-family: 'Titan One', cursive;
+}
+
+.pic{
+    width: 15%;
+    margin: 0 auto;
+    border-radius: 15%;
+}
+
+.WAI{
+    margin-bottom: 0;
+}
+
+.knowledge{
+    background-color: #FFACC7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: 70px auto;
+    border: solid 10px;
+}
+
+.infoRow{
+    margin: 100px auto;
+    width: 75%;
+}
+
+.leftf{
+    float: left;
+    margin-right: 20px;
+}
+
+.rightf{
+    float: right;
+    margin-left: 20px;
+}
+
+.info-text1{
+    text-align: left;
+    width: 90%;
+}
+
+.info-text2{
+    text-align: right;
+    width: 90%;
+}
+
+.hellokitty{
+    width: 20%;
+}
+
+.kuromi{
+    width: 20%;
+}
+
+.cinnamoroll{
+    width: 24%;
+}
+
+.mymelody{
+    width: 20%;
+}
+
+.nameR{
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.nameL{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.bottom-note{
+    width: 70%;
+    margin: 20px auto 50px;
+}
+
+.bottomh2{
+    margin: 50px auto 50px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #E98EAD;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #E98EAD 7px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    color: black;
+    border-color: black;
+    text-decoration: none;
+  }
+
+.footer{
+    margin-top: 50px;
+    padding: 30px;
+    background-color: black;
+}
+
+.footer-note{
+    margin:0;
+    font-size: 1rem;
+    color: #F2E7D5;
+    width: 100%;
+}
+
+.hellokittyandfriends{
+    margin: 0 auto;
+}
+
+.k-text{
+    margin: 50px auto 0;
+}
+
+.infotitle{
+    font-size: 50px;
+}
+
+@keyframes slide {
+    10% {margin-left: 0px;}
+    20% {margin-left: -1080px;}
+    30% {margin-left: -1080px;}
+    40% {margin-left: -2160px;}
+    50% {margin-left: -2160px;}
+    60% {margin-left: -3240px;}
+    70% {margin-left: -3240px;}
+    80% {margin-left: -4320px;}
+    90% {margin-left: -4320px;}
+}
